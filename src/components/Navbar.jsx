@@ -9,32 +9,32 @@ const Navbar = () => {
       </div>
       <ul className="flex gap-9 text-base">
         <li>
-          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+          <div className="hover:underline transition font-jakarta font-bold text-white">
             Glamping
           </div>
         </li>
         <li>
-          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+          <div className="hover:underline transition font-jakarta font-bold text-white">
             Menginap
           </div>
         </li>
         <li>
-          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+          <div className="hover:underline transition font-jakarta font-bold text-white">
             Reservasi
           </div>
         </li>
         <li>
-          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+          <div className="hover:underline transition font-jakarta font-bold text-white">
             FAQ
           </div>
         </li>
         <li>
-          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+          <div className="hover:underline transition font-jakarta font-bold text-white">
             Testimoni
           </div>
         </li>
       </ul>
-      <div className="hover:text-[#C2765D] transition font-jakarta font-bold underline text-white">
+      <div className="transition font-jakarta font-bold hover:underline text-white">
             Hubungi Kami
       </div>
     </nav>
