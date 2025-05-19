@@ -1,29 +1,42 @@
 import React from 'react';
+import Logo from '.././assets/Logo.png'
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-md px-6 py-4 flex justify-between">
-      <div className="text-2xl font-bold text-green-600">
-        VillaBooking
+    <nav className="px-[104px] py-4 flex justify-between items-center">
+      <div>
+        <img src={Logo} alt="Villa Booking Logo" className="h-16" />
       </div>
-
-      <ul className="flex gap-6 text-gray-700">
+      <ul className="flex gap-9 text-base">
         <li>
-          <div className="hover:text-green-600 transition">
-            Home
+          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+            Glamping
           </div>
         </li>
         <li>
-          <div className="hover:text-green-600 transition">
-            Reservation
+          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+            Menginap
           </div>
         </li>
         <li>
-          <div className="hover:text-green-600 transition">
-            Contact
+          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+            Reservasi
+          </div>
+        </li>
+        <li>
+          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+            FAQ
+          </div>
+        </li>
+        <li>
+          <div className="hover:text-[#C2765D] hover:underline transition font-jakarta font-bold text-white">
+            Testimoni
           </div>
         </li>
       </ul>
+      <div className="hover:text-[#C2765D] transition font-jakarta font-bold underline text-white">
+            Hubungi Kami
+      </div>
     </nav>
   );
 };

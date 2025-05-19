@@ -1,1 +1,48 @@
 @import "tailwindcss";
+
+/* MADE Mirage Fonts */
+@font-face {
+  font-family: 'MADE Mirage';
+  src: url('./fonts/MADE Mirage Black PERSONAL USE.otf') format('opentype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'MADE Mirage';
+  src: url('./fonts/MADE Mirage Bold PERSONAL USE.otf') format('opentype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'MADE Mirage';
+  src: url('./fonts/MADE Mirage Medium PERSONAL USE.otf') format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'MADE Mirage';
+  src: url('./fonts/MADE Mirage Regular PERSONAL USE.otf') format('opentype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'MADE Mirage';
+  src: url('./fonts/MADE Mirage Thin PERSONAL USE.otf') format('opentype');
+  font-weight: 200;
+}
+
+/* Plus Jakarta Sans Variable */
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('./fonts/PlusJakartaSans-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+
+@theme {
+  --font-mirage: Made Mirage, sans-serif;
+  --font-jakarta: Plus Jakarta Sans, sans-serif;
+}
