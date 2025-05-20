@@ -1,7 +1,6 @@
 import React from 'react';
-import { WhatsappLogo } from "phosphor-react";
 
-const ButtonCTA = () => {
+const ButtonCTA = ({ position = 'left', icon: Icon, text = "text" }) => {
   return (
     <a
       href="https://wa.me/6282144036169"
@@ -9,7 +8,9 @@ const ButtonCTA = () => {
       rel="noopener noreferrer"
       className='flex justify-center items-center gap-2 font-jakarta font-bold text-base text-white bg-white/20 px-6 py-4 outline-2 rounded'
     >
-      <WhatsappLogo size={24} /> Reservasi Sekarang
+      {position === 'left' && Icon && <Icon size={24} />}
+      <span>{text}</span>
+      {position === 'right' && Icon && <Icon size={24} />}
     </a>
   );
 };

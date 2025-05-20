@@ -1,13 +1,14 @@
 import Navbar from '.././components/Navbar.jsx'
 import ButtonCTA from '.././components/ButtonCTA.jsx'
-import bghero from '.././assets/bghero.png'
+import bgHero from '.././assets/bghero.png'
+import { WhatsappLogo, Info, ArrowRight } from 'phosphor-react';
 
 const Hero = () => {
   return (
     <div
     className="flex flex-col bg-cover bg-center h-screen"
     style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bghero})`
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${bgHero})`
       }}
     >
         <Navbar/>
@@ -18,7 +19,7 @@ const Hero = () => {
             <p className='font-jakarta text-white text-xl/18 pb-4'>
                 Nikmati ketenangan dan keindahan menginap ditengah alam hanya sekejap dari pusat kota
             </p>
-            <ButtonCTA/>
+            <ButtonCTA position="left" icon={WhatsappLogo} text= "Reservasi Sekarang"/>
         </div>
     </div>
   )
