@@ -11,7 +11,7 @@ import showcaseimg4 from '.././assets/showcaseimg4.png'
 const Showcase = () => {
   return (
     <div>
-        <div className='h-screen bg-[#F3EFE7] flex flex-col items-center justify-center'>
+        <div className='h-screen bg-secondary flex flex-col items-center justify-center'>
             <div className='font-mirage text-primary font-bold text-4xl/12 text-center underline pb-16'>
                 Pengalaman menginap yang <br/>
                 tenang dan tak terlupakan
@@ -46,7 +46,7 @@ const Showcase = () => {
                 </h2>
             </div>
         </div>
-        <div className="h-screen bg-[#F3EFE7] flex flex-col justify-center items-center px-4">
+        <div className="h-screen bg-secondary flex flex-col justify-center items-center">
             <div className="flex flex-col justify-center items-center gap-6">
                 <Chips text="PENGALAMAN MENGINAP" />
                 <p className="font-mirage text-primary font-bold text-4xl text-center">

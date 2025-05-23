@@ -1,12 +1,23 @@
 import React from 'react';
 
-const ButtonPrimary = ({ position = 'left', icon: Icon, text = "Button" }) => {
+const ButtonPrimary = ({
+  position = 'left',
+  icon: Icon,
+  text = 'Button',
+  type = 'green',
+}) => {
+  // Define styles based on button type
+  const typeStyles = {
+    green: 'text-white bg-primary',
+    accent: 'text-white bg-accent',
+  };
+
   return (
     <a
       href="https://wa.me/6282144036169"
       target="_blank"
       rel="noopener noreferrer"
-      className='w-fit inline-flex justify-center items-center gap-2 font-jakarta font-semibold text-base text-white bg-primary px-6 py-3 rounded'
+      className={`w-fit inline-flex justify-center items-center gap-2 font-jakarta font-semibold text-base px-6 py-3 rounded ${typeStyles[type]}`}
     >
       {position === 'left' && Icon && <Icon size={24} />}
       <span>{text}</span>
