@@ -35,7 +35,7 @@ const Book = () => {
                   ))}
                 </div>
                 <div className='flex justify-center w-full'>
-                    <ButtonPrimary position="left" icon={WhatsappLogoIcon } text ="Reservasi Sekarang" type="accent"/>
+                    <ButtonPrimary position="left" icon={WhatsappLogoIcon} text ="Reservasi Sekarang" type="accent"/>
                 </div>
             </div>
         </div>
