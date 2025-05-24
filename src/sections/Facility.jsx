@@ -1,6 +1,6 @@
 import Chips from '.././components/Chips.jsx'
 import ButtonPrimary from '.././components/ButtonPrimary.jsx'
-import { WhatsappLogo, ArrowSquareRight, ArrowSquareLeft } from 'phosphor-react';
+import { WhatsappLogoIcon , ArrowSquareRightIcon , ArrowSquareLeftIcon } from '@phosphor-icons/react';
 import facilityimg1 from '.././assets/facility.png'
 import facilityimg2 from '.././assets/facility-1.png'
 import facilityimg3 from '.././assets/facility-2.png'

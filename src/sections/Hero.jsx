@@ -1,7 +1,7 @@
 import Navbar from '.././components/Navbar.jsx'
 import ButtonCTA from '.././components/ButtonCTA.jsx'
 import bgHero from '.././assets/bghero.png'
-import { WhatsappLogo, Info, ArrowRight } from 'phosphor-react';
+import { WhatsappLogoIcon , InfoIcon , ArrowRightIcon  } from '@phosphor-icons/react';
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
             <p className='font-jakarta text-white text-xl/18 pb-4'>
                 Nikmati ketenangan dan keindahan menginap ditengah alam hanya sekejap dari pusat kota
             </p>
-            <ButtonCTA position="left" icon={WhatsappLogo} text= "Reservasi Sekarang"/>
+            <ButtonCTA position="left" icon={WhatsappLogoIcon} text= "Reservasi Sekarang"/>
         </div>
     </div>
   )

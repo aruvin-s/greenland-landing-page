@@ -1,6 +1,6 @@
 import Chips from '.././components/Chips.jsx'
 import ButtonPrimary from '.././components/ButtonPrimary.jsx'
-import { WhatsappLogo, ArrowSquareRight, ArrowSquareLeft } from 'phosphor-react';
+import { WhatsappLogoIcon , ArrowSquareRightIcon , ArrowSquareLeftIcon  } from '@phosphor-icons/react';
 import bookimg1 from '.././assets/book1.png'
 import bookimg2 from '.././assets/book2.png'
 import bookimg3 from '.././assets/book3.png'
@@ -35,7 +35,7 @@ const Book = () => {
                   ))}
                 </div>
                 <div className='flex justify-center w-full'>
-                    <ButtonPrimary position="left" icon={WhatsappLogo} text ="Reservasi Sekarang" type="accent"/>
+                    <ButtonPrimary position="left" icon={WhatsappLogoIcon } text ="Reservasi Sekarang" type="accent"/>
                 </div>
             </div>
         </div>

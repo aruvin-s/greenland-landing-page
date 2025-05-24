@@ -1,7 +1,7 @@
 import Chips from '.././components/Chips.jsx'
 import ButtonPrimary from '.././components/ButtonPrimary.jsx'
 import image1 from '.././assets/showcaseimage1.png'
-import { WhatsappLogo, ArrowSquareRight, ArrowSquareLeft } from 'phosphor-react';
+import { WhatsappLogoIcon , ArrowSquareRightIcon , ArrowSquareLeftIcon  } from '@phosphor-icons/react';
 import bgCarousel from '.././assets/midcarousel.png'
 import showcaseimg1 from '.././assets/showcaseimg1.png'
 import showcaseimg2 from '.././assets/showcaseimg2.png'
@@ -29,7 +29,7 @@ const Showcase = () => {
                         Udara sejuk dan suasana tenang di sini membuat tubuh dan pikiran kalian cepat rileks. Kami menyediakan glamping nyaman untuk keluarga maupun pasangan,
                         dilengkapi fasilitas yang membuat liburan kalian nyaman tanpa repot.
                     </p>
-                    <ButtonPrimary position="right" icon={ArrowSquareRight} text ="Pelajari lebih lanjut" />
+                    <ButtonPrimary position="right" icon={ArrowSquareRightIcon } text ="Pelajari lebih lanjut" />
                 </div>
             </div>
         </div>
@@ -63,8 +63,8 @@ const Showcase = () => {
                     <img src={showcaseimg4} alt="Showcase 4" className="object-cover rounded-lg" />
                 </div>
                 <div className='flex justify-between w-full'>
-                    <ButtonPrimary position="left" icon={ArrowSquareLeft} text ="Sebelumnya" />
-                    <ButtonPrimary position="right" icon={ArrowSquareRight} text ="Selanjutnya" />
+                    <ButtonPrimary position="left" icon={ArrowSquareLeftIcon } text ="Sebelumnya" />
+                    <ButtonPrimary position="right" icon={ArrowSquareRightIcon } text ="Selanjutnya" />
                 </div>
             </div>
         </div>

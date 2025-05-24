@@ -3,6 +3,7 @@ import Showcase from './sections/Showcase.jsx'
 import Facility from './sections/Facility.jsx'
 import Video from './sections/Video.jsx'
 import Book from './sections/Book.jsx'
+import FAQ from './sections/FAQ.jsx'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Facility />
       <Video />
       <Book />
+      <FAQ />
     </>
   )
 }

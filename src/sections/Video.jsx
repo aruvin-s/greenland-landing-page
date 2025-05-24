@@ -1,6 +1,6 @@
 import Chips from '.././components/Chips.jsx'
 import ButtonPrimary from '.././components/ButtonPrimary.jsx'
-import { WhatsappLogo, ArrowSquareRight, ArrowSquareLeft } from 'phosphor-react';
+import { WhatsappLogoIcon , ArrowSquareRightIcon , ArrowSquareLeftIcon  } from '@phosphor-icons/react';
 
 const Video = () => {
   return (
