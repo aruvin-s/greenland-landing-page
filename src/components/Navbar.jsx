@@ -1,42 +1,42 @@
 import React from 'react';
-import Logo from '.././assets/Logo.png'
+import Logo from '.././assets/Logo.png';
 
 const Navbar = () => {
   return (
-    <nav className="px-[104px] py-4 flex justify-between items-center">
+    <nav className="px-4 sm:px-10 md:px-20 lg:px-[104px] py-4 flex justify-center lg:justify-between items-center">
       <div>
-        <img src={Logo} alt="Villa Booking Logo" className="h-16" />
+        <img src={Logo} alt="Villa Booking Logo" className="h-12 sm:h-14" />
       </div>
-      <ul className="flex gap-9 text-base">
+      <ul className="hidden lg:flex gap-9 text-base">
         <li>
-          <div className="hover:underline transition font-jakarta font-bold text-white">
+          <a href="#glamping" className="hover:underline transition font-jakarta font-bold text-white">
             Glamping
-          </div>
+          </a>
         </li>
         <li>
-          <div className="hover:underline transition font-jakarta font-bold text-white">
+          <a href="#menginap" className="hover:underline transition font-jakarta font-bold text-white">
             Menginap
-          </div>
+          </a>
         </li>
         <li>
-          <div className="hover:underline transition font-jakarta font-bold text-white">
+          <a href="#reservasi" className="hover:underline transition font-jakarta font-bold text-white">
             Reservasi
-          </div>
+          </a>
         </li>
         <li>
-          <div className="hover:underline transition font-jakarta font-bold text-white">
+          <a href="#faq" className="hover:underline transition font-jakarta font-bold text-white">
             FAQ
-          </div>
+          </a>
         </li>
         <li>
-          <div className="hover:underline transition font-jakarta font-bold text-white">
+          <a href="#testimoni" className="hover:underline transition font-jakarta font-bold text-white">
             Testimoni
-          </div>
+          </a>
         </li>
       </ul>
-      <div className="transition font-jakarta font-bold hover:underline text-white">
-            Hubungi Kami
-      </div>
+      <a href="#contact" className="hidden lg:block transition font-jakarta font-bold hover:underline text-white">
+        Hubungi Kami
+      </a>
     </nav>
   );
 };
