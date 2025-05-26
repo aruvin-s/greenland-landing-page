@@ -5,6 +5,7 @@ import Video from './sections/Video.jsx'
 import Book from './sections/Book.jsx'
 import FAQ from './sections/FAQ.jsx'
 import Testimony from './sections/Testimony.jsx'
+import Footer from './sections/Footer.jsx'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Book />
       <FAQ />
       <Testimony />
+      <Footer />
     </>
   )
 }
