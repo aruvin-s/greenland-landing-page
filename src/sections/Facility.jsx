@@ -20,30 +20,30 @@ const Facility = () => {
                 <p className="font-jakarta text-secondary text-center text-lg">
                     Malang Greenland Glamping menawarkan fasilitas glamping sekelas hotel
                 </p>
-                <div className="justify-center grid grid-cols-3 gap-9">
+                <div className="justify-center grid grid-cols-3 gap-9 font-mirage text-secondary font-medium text-2xl text-center underline">
                     <div>
                         <img src={facilityimg1} alt="Facility 1" className="object-cover rounded-lg" />
-                        <p className='font-mirage text-secondary font-medium text-4xl p-4 text-center underline'>Kasur Queen Size</p>
+                        <p className='p-4'>Kasur Queen Size</p>
                     </div>
                     <div>
                         <img src={facilityimg2} alt="Facility 2" className="object-cover rounded-lg" />
-                        <p className='font-mirage text-secondary font-medium text-4xl p-4 text-center underline'>Room Amenities</p>
+                        <p className='p-4'>Room Amenities</p>
                     </div>
                      <div>
                         <img src={facilityimg3} alt="Facility 3" className="object-cover rounded-lg" />
-                        <p className='font-mirage text-secondary font-medium text-4xl p-4 text-center underline'>Closet & Hot Water</p>
+                        <p className='p-4'>Closet & Hot Water</p>
                     </div>
                     <div>
                         <img src={facilityimg4} alt="Facility 4" className="object-cover rounded-lg" />
-                        <p className='font-mirage text-secondary font-medium text-4xl p-4 text-center underline'>Kolam Renang</p>
+                        <p className='p-4'>Kolam Renang</p>
                     </div>
                     <div>
                         <img src={facilityimg5} alt="Facility 5" className="object-cover rounded-lg" />
-                        <p className='font-mirage text-secondary font-medium text-4xl p-4 text-center underline'>Grill Venue</p>
+                        <p className='p-4'>Grill Venue</p>
                     </div>
                      <div>
                         <img src={facilityimg6} alt="Facility 6" className="object-cover rounded-lg" />
-                        <p className='font-mirage text-secondary font-medium text-4xl p-4 text-center underline'>Cafe & Lounge</p>
+                        <p className='p-4'>Cafe & Lounge</p>
                     </div>
                 </div>
             </div>
