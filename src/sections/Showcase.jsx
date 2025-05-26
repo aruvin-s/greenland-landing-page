@@ -12,36 +12,38 @@ const Showcase = () => {
   return (
     <div>
         <div className="min-h-screen bg-secondary flex flex-col items-center justify-center px-6 py-20 sm:px-10">
-            <div className="font-mirage text-primary font-bold text-2xl sm:text-3xl text-center underline pb-10 sm:pb-16 leading-snug">
+            <div className="font-mirage text-primary font-bold text-2xl sm:text-3xl text-center underline pb-10 sm:pb-16">
                 Pengalaman menginap yang <br />
                 tenang dan tak terlupakan
             </div>
-            <div className="flex flex-col sm:flex-row gap-8 sm:gap-20 items-center max-w-7xl w-full">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-10 lg:gap-20 max-w-7xl w-full">
+                <div className=" flex justify-center">
                 <img
-                src={image1}
-                alt="Showcase"
-                className="max-w-md sm:max-w-lg object-contain"
+                    src={image1}
+                    alt="Showcase"
+                    className="w-full max-w-md lg:max-w-full object-contain"
                 />
-                <div className="flex flex-col justify-center gap-4 text-center sm:text-left">
-                    <div className="flex justify-center sm:justify-start">
-                        <Chips text="TENTANG GLAMPING" />
-                    </div>
-                    <p className="font-mirage text-primary font-bold text-2xl sm:text-4xl leading-tight">
-                        Terinspirasi & Tumbuh dari Alam
-                    </p>
-                    <p className="font-jakarta text-lg/10 sm:text-base/10 text-justify max-w-2xl mx-auto sm:mx-0">
-                        Mau liburan sambil melepas penat? Malang Greenland Glamping tempatnya!
-                        Tempat ini dikelilingi panorama alam asri dan hutan hijau yang memukau.
-                        Udara sejuk dan suasana tenang di sini membuat tubuh dan pikiran kalian cepat rileks. Kami menyediakan glamping nyaman untuk keluarga maupun pasangan,
-                        dilengkapi fasilitas yang membuat liburan kalian nyaman tanpa repot.
-                    </p>
-                    <div className="flex justify-center sm:justify-start">
-                        <ButtonPrimary
-                        position="right"
-                        icon={ArrowSquareRightIcon}
-                        text="Pelajari lebih lanjut"
-                        />
-                    </div>
+                </div>
+                <div className="w-full lg:w-1/2 flex flex-col justify-center gap-4 text-center lg:text-left">
+                <div className="flex justify-center lg:justify-start">
+                    <Chips text="TENTANG GLAMPING" />
+                </div>
+                <p className="font-mirage text-primary font-bold text-2xl sm:text-4xl">
+                    Terinspirasi & Tumbuh dari Alam
+                </p>
+                <p className="font-jakarta text-base/10 sm:text-lg/10 text-justify max-w-prose mx-auto lg:mx-0">
+                    Mau liburan sambil melepas penat? Malang Greenland Glamping tempatnya!
+                    Tempat ini dikelilingi panorama alam asri dan hutan hijau yang memukau.
+                    Udara sejuk dan suasana tenang di sini membuat tubuh dan pikiran kalian cepat rileks. Kami menyediakan glamping nyaman untuk keluarga maupun pasangan,
+                    dilengkapi fasilitas yang membuat liburan kalian nyaman tanpa repot.
+                </p>
+                <div className="flex justify-center lg:justify-start">
+                    <ButtonPrimary
+                    position="right"
+                    icon={ArrowSquareRightIcon}
+                    text="Pelajari lebih lanjut"
+                    />
+                </div>
                 </div>
             </div>
         </div>
