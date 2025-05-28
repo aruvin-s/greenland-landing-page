@@ -71,11 +71,11 @@ const Showcase = () => {
                 </p>
             </div>
             <div className="flex flex-col items-center gap-6 mt-6 px-6 sm:px-0">
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
-                <img src={showcaseimg1} alt="Showcase 1" className="w-full sm:w-max h-96 sm:h-80 object-cover rounded-lg " />
-                <img src={showcaseimg2} alt="Showcase 2" className="hidden sm:block h-80 object-cover rounded-lg" />
-                <img src={showcaseimg3} alt="Showcase 3" className="hidden sm:block h-80 object-cover rounded-lg" />
-                <img src={showcaseimg4} alt="Showcase 4" className="hidden sm:block h-80 object-cover rounded-lg" />
+                <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full">
+                    <img src={showcaseimg1} alt="Showcase 1" className="w-full lg:w-max h-100 lg:h-80 object-cover rounded-lg " />
+                    <img src={showcaseimg2} alt="Showcase 2" className="hidden lg:block h-80 object-cover rounded-lg" />
+                    <img src={showcaseimg3} alt="Showcase 3" className="hidden lg:block h-80 object-cover rounded-lg" />
+                    <img src={showcaseimg4} alt="Showcase 4" className="hidden lg:block h-80 object-cover rounded-lg" />
                 </div>
                 <div className="flex justify-between w-full">
                     <ButtonPrimary position="left" icon={ArrowSquareLeftIcon} text="Sebelumnya" />
