@@ -8,24 +8,24 @@ const Footer = () => {
   return (
     <div className="bg-accent py-20">
       <div className="flex flex-col lg:flex-row justify-center gap-12 md:gap-20 w-full px-4 sm:px-8 md:px-[104px] font-jakarta text-secondary mx-auto items-center lg:items-start">
-        <div className="flex flex-col flex-shrink-0 w-full sm:w-lg">
+        <div className="flex flex-col flex-shrink-0 w-full lg:w-3xs">
             <img 
               src={Logo} 
               alt="Villa Booking Logo" 
-              className="mb-6 max-w-full h-auto object-contain" 
+              className="mb-6" 
             />
             <img 
               src={image} 
               alt="Footer Image" 
-              className="max-w-full h-auto object-cover rounded-md" 
+              className=" rounded-md" 
             />
           </div>
 
         <div className="flex flex-col max-w-full mb-8 md:mb-0 gap-3 text-center lg:text-start">
           <p className="font-bold text-lg">Menu</p>
           <div className="h-[1px] bg-secondary mb-3"></div>
-          <a href="#" className="hover:underline transition">About</a>
-          <a href="#" className="hover:underline transition">Stay</a>
+          <a href="#" className="hover:underline transition">Tentang Kami</a>
+          <a href="#" className="hover:underline transition">Menginap</a>
           <a href="#" className="hover:underline transition">FAQ</a>
           <a href="#" className="hover:underline transition">Review</a>
         </div>

@@ -60,29 +60,35 @@ const Showcase = () => {
                 </h2>
             </div>
         </div>
-        <div className="min-h-screen bg-secondary flex flex-col items-center justify-center">
-            <div className="w-full px-6 sm:px-10 flex flex-col items-center gap-4">
-                <Chips text="PENGALAMAN MENGINAP" />
-                <p className="font-mirage text-primary font-bold text-2xl sm:text-4xl text-center">
-                Rasakan Keindahan Alam
-                </p>
-                <p className="font-jakarta text-center text-base/10 sm:text-lg/10 max-w-sm sm:max-w-lg">
-                Nikmati suasana tenang dan pemandangan Gunung Panderman serta Citylight Kota Batu yang mempesona
-                </p>
-            </div>
-            <div className="flex flex-col items-center gap-6 mt-6 px-6 sm:px-0">
-                <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 w-full">
-                    <img src={showcaseimg1} alt="Showcase 1" className="w-full lg:w-max h-100 lg:h-80 object-cover rounded-lg " />
-                    <img src={showcaseimg2} alt="Showcase 2" className="hidden lg:block h-80 object-cover rounded-lg" />
-                    <img src={showcaseimg3} alt="Showcase 3" className="hidden lg:block h-80 object-cover rounded-lg" />
-                    <img src={showcaseimg4} alt="Showcase 4" className="hidden lg:block h-80 object-cover rounded-lg" />
-                </div>
-                <div className="flex justify-between w-full">
-                    <ButtonPrimary position="left" icon={ArrowSquareLeftIcon} text="Sebelumnya" />
-                    <ButtonPrimary position="right" icon={ArrowSquareRightIcon} text="Selanjutnya" />
-                </div>
-            </div>
-        </div>
+        <div className="min-h-screen bg-secondary flex flex-col items-center justify-center py-16">
+  {/* Header Section */}
+  <div className="w-full px-6 sm:px-10 flex flex-col items-center gap-4">
+    <Chips text="PENGALAMAN MENGINAP" />
+    <p className="font-mirage text-primary font-bold text-2xl sm:text-4xl text-center">
+      Rasakan Keindahan Alam
+    </p>
+    <p className="font-jakarta text-center text-base sm:text-lg max-w-sm sm:max-w-lg">
+      Nikmati suasana tenang dan pemandangan Gunung Panderman serta Citylight Kota Batu yang mempesona
+    </p>
+  </div>
+
+  {/* Showcase Grid */}
+  <div className="flex flex-col items-center gap-6 mt-6 px-6 sm:px-10 w-full max-w-6xl">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
+      <img src={showcaseimg1} alt="Showcase 1" className="w-full h-64 object-cover rounded-lg" />
+      <img src={showcaseimg2} alt="Showcase 2" className="w-full h-64 object-cover rounded-lg" />
+      <img src={showcaseimg3} alt="Showcase 3" className="w-full h-64 object-cover rounded-lg" />
+      <img src={showcaseimg4} alt="Showcase 4" className="w-full h-64 object-cover rounded-lg" />
+    </div>
+
+    {/* Navigation Buttons */}
+    <div className="flex justify-between w-full">
+      <ButtonPrimary position="left" icon={ArrowSquareLeftIcon} text="Sebelumnya" />
+      <ButtonPrimary position="right" icon={ArrowSquareRightIcon} text="Selanjutnya" />
+    </div>
+  </div>
+</div>
+
     </div>
   )
 }
