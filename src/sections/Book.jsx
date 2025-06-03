@@ -9,7 +9,7 @@ import bookimg4 from '.././assets/book4.png'
 const Book = () => {
   return (
     <div>
-        <div className="min-h-screen bg-primary flex flex-col justify-center items-center">
+        <div className="min-h-screen bg-primary flex flex-col justify-center items-center px-6 sm:px-10">
             <div className="flex flex-col justify-center items-center gap-6 py-24">
                 <Chips variant="secondary" text="RESERVASI"/>
                 <p className="font-mirage text-secondary font-bold text-4xl text-center">
