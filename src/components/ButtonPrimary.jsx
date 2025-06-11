@@ -5,6 +5,7 @@ const ButtonPrimary = ({
   icon: Icon,
   text = 'Button',
   type = 'green',
+  href = 'https://wa.me/6282144036169'
 }) => {
   // Define styles based on button type
   const typeStyles = {
@@ -14,7 +15,7 @@ const ButtonPrimary = ({
 
   return (
     <a
-      href="https://wa.me/6282144036169"
+      href={href}
       target="_blank"
       rel="noopener noreferrer"
       className={`w-fit inline-flex justify-center items-center gap-2 font-jakarta font-semibold text-base px-6 py-3 rounded ${typeStyles[type]}`}

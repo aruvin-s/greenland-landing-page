@@ -42,6 +42,7 @@ const Showcase = () => {
                     position="right"
                     icon={ArrowSquareRightIcon}
                     text="Pelajari lebih lanjut"
+                    href="https://linktr.ee/malanggreenland"
                     />
                 </div>
                 </div>
@@ -73,8 +74,8 @@ const Showcase = () => {
   </div>
 
   {/* Showcase Grid */}
-  <div className="flex flex-col items-center gap-6 mt-6 px-6 sm:px-10 w-full">
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+  <div className="flex flex-col items-center gap-6 mt-6 px-6 sm:px-10 w-full max-w-9/10">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 w-full">
       <img src={showcaseimg1} alt="Showcase 1" className="w-full object-cover rounded-lg" />
       <img src={showcaseimg2} alt="Showcase 2" className="w-full object-cover rounded-lg" />
       <img src={showcaseimg3} alt="Showcase 3" className="w-full object-cover rounded-lg" />

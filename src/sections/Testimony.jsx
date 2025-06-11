@@ -14,7 +14,7 @@ const Testimony = () => {
           <p className="font-mirage text-secondary font-bold text-3xl sm:text-4xl text-center px-2 sm:px-0">
             Bagaimana pengalaman mereka?
           </p>
-          <div className="flex flex-col sm:flex-row sm:justify-center sm:gap-10 gap-8 w-full max-w-5xl">
+          <div className="flex flex-col sm:flex-row sm:justify-center sm:gap-10 gap-8 w-full">
             <TestimonyCard
               name="Octaviana"
               rating={5}

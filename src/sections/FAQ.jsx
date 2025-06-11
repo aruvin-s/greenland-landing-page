@@ -79,12 +79,14 @@ const FAQ = () => {
               icon={WhatsappLogoIcon}
               text="Whatsapp Admin 1"
               type="accent"
+              href='https://wa.me/6281228866113'
             />
             <ButtonPrimary
               position="left"
               icon={WhatsappLogoIcon}
               text="Whatsapp Admin 2"
               type="accent"
+              href='https://wa.me/6282144036169'
             />
           </div>
         </div>
