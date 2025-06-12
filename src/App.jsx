@@ -11,14 +11,28 @@ function App() {
 
   return (
     <>
-      <Hero />
-      <Showcase />
-      <Facility />
-      <Video />
-      <Book />
-      <FAQ />
-      <Testimony />
-      <Footer />
+       <Hero />
+      <div id="glamping">
+        <Showcase />
+      </div>
+      <div id="menginap">
+        <Facility />
+      </div>
+      <div id="reservasi">
+        <Video />
+      </div>
+      <div id="book">
+        <Book />
+      </div>
+      <div id="faq">
+        <FAQ />
+      </div>
+      <div id="testimoni">
+        <Testimony />
+      </div>
+      <div id="contact">
+        <Footer />
+      </div>
     </>
   )
 }

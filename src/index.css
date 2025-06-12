@@ -49,3 +49,7 @@
    --color-secondary: #F3EFE7;
    --color-accent: #C2765D;
 }
+
+html {
+  scroll-behavior: smooth;
+}

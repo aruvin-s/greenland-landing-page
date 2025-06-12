@@ -34,7 +34,7 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      <a href="#contact" className="hidden xl:block transition font-jakarta font-bold hover:underline text-white">
+      <a href='https://wa.me/6281228866113' className="hidden xl:block transition font-jakarta font-bold hover:underline text-white">
         Hubungi Kami
       </a>
     </nav>
