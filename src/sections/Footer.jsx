@@ -24,10 +24,10 @@ const Footer = () => {
         <div className="flex flex-col max-w-full mb-8 md:mb-0 gap-3 text-center lg:text-start">
           <p className="font-bold text-lg">Menu</p>
           <div className="h-[1px] bg-secondary mb-3"></div>
-          <a href="#" className="hover:underline transition">Tentang Kami</a>
-          <a href="#" className="hover:underline transition">Menginap</a>
-          <a href="#" className="hover:underline transition">FAQ</a>
-          <a href="#" className="hover:underline transition">Review</a>
+          <a href="#glamping" className="hover:underline transition">Tentang Kami</a>
+          <a href="#menginap" className="hover:underline transition">Menginap</a>
+          <a href="#faq" className="hover:underline transition">FAQ</a>
+          <a href="#testimoni" className="hover:underline transition">Review</a>
         </div>
 
         <div className="flex flex-col mb-8 md:mb-0 gap-3 items-center lg:items-start">
@@ -35,7 +35,7 @@ const Footer = () => {
           <div className="h-[1px] w-full bg-secondary mb-3"></div>
           <div className="flex gap-2 items-center">
             <PhoneIcon size={20} />
-            <a href="tel:082144036169" className="hover:underline transition">082144036169</a>
+            <a href="https://wa.me/082144036169" className="hover:underline transition">082144036169</a>
           </div>
           <div className="flex gap-2 items-center">
             <WhatsappLogoIcon size={20} />

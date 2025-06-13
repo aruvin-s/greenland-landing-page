@@ -20,7 +20,7 @@ const Facility = () => {
         <p className="font-mirage text-secondary font-bold text-3xl sm:text-4xl text-center">
           Glamping Segitiga
         </p>
-        <p className="font-jakarta text-secondary text-center text-base sm:text-lg max-w-md sm:max-w-xl">
+        <p className="font-jakarta text-secondary text-center text-base sm:text-lg max-w-md sm:max-w-2xl">
           Malang Greenland Glamping menawarkan fasilitas glamping sekelas hotel
         </p>
 
