@@ -1,5 +1,4 @@
 import React from 'react';
-import { WhatsappLogo } from "phosphor-react";
 
 const Chips = ({ text = "CHIPS", variant = "primary" }) => {
   const baseClass = 'w-fit inline-flex items-center font-jakarta font-extrabold text-sm px-3 py-2 rounded';
